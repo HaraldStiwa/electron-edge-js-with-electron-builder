@@ -1,0 +1,6 @@
+{
+    "directories": {
+      "output": "./release-with-asar"
+    },
+    "asar": true
+}

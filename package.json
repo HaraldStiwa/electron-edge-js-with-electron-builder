@@ -1,0 +1,34 @@
+{
+  "name": "electron-edge-js-with-electron-builder",
+  "productName": "electron-edge-js-with-electron-builder",
+  "version": "1.0.0",
+  "description": "Demonstration project for a bug of electron-edge-js in combination with electron-builder",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaraldStiwa/electron-edge-js-with-electron-builder.git"
+  },
+  "keywords": [
+    "electron",
+    "electron-edge-js",
+    "electron-builder",
+    "c#",
+    ".net"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/HaraldStiwa/electron-edge-js-with-electron-builder#readme",
+  
+  "scripts": {
+    "electron": "electron .",
+    "build": "electron-builder --dir --win --x64 --publish=always --config=electron-builder.json",
+    "build-with-asar": "electron-builder --dir --win --x64 --publish=always --config=electron-builder-with-asar.json"
+  },
+  "devDependencies": {
+    "electron": "^6.0.10",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-edge-js": "^12.4.0"
+  }
+}
