@@ -1,2 +1,2 @@
 # electron-edge-js-with-electron-builder
-Demonstration project for a bug of electron-edge-js in combination with electron-builder
+Demonstration project for the issue [Problem when distributing electron-edge with electron-builder: edge-cs.dll not found](https://github.com/agracio/electron-edge-js/issues/62) of electron-edge-js in combination with electron-builder
