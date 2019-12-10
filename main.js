@@ -1,6 +1,6 @@
 // enables interaction with C# .NET
 const edge = require('electron-edge-js');
-const path = require('path');
+const path = require('electron-edge-js/lib/electronPath');
 
 try {
     const dotNetFunc = edge.func(`

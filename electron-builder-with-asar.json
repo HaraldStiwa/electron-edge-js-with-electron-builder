@@ -2,5 +2,8 @@
     "directories": {
       "output": "./release-with-asar"
     },
-    "asar": true
+    "asar": true,
+    "asarUnpack": [
+      "dotnet.cs"
+    ]
 }
